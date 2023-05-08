@@ -1,0 +1,11 @@
+Download Link: https://assignmentchef.com/product/solved-solvedscientificmemcalc
+<br>
+In this assignment, you will write a subclass of the MemoryCalc class from Assignment 6. This new calculator, called ScientificMemCalc, should be able to do everything that the MemoryCalc could do, plus raise the current value to a power and compute the natural logarithm of the current value. This is a fairly realistic assignment – often when you are working for a company, you will be asked to make minor extensions to existing code. You will need to override the displayMenu method to add the new options.
+
+Be sure to only add code to the ScientificMemCalc class if it is necessary – leverage the code from the base MemoryCalc class whenever possible. Use the power of inheritance to do this rather than cutting and pasting or otherwise duplicating the code. Finally, write a new class called ScientificCalcDriver that shows the functionality of your new class. This will be very similar to the CalcDriver class contained in the assignment9.jar file. Sample output: The current value is
+
+0.0 Menu 1. Add 2. Subtract 3. Multiply 4. Divide 5. Power 6. Logarithm 7. Clear 8. Quit What would you like to do? 1 What is the second number? 20 The current value is 20.0 Menu 1. Add 2. Subtract 3. Multiply 4. Divide 5. Power 6. Logarithm 7. Clear 8. Quit What would you like to do? 2 What is the second number? 10 The current value is 10.0 Menu 1. Add 2. Subtract 3. Multiply 4. Divide 5. Power 6. Logarithm 7. Clear 8. Quit What would you like to do? 3 What is the second number? 3 The current value is 30.0 Menu 1. Add 2. Subtract 3. Multiply 4. Divide 5. Power 6. Logarithm 7. Clear 8. Quit What would you like to do? 4 What is the second number? 6 The current value is 5.0 Menu 1. Add 2. Subtract 3. Multiply 4. Divide 5. Power 6. Logarithm 7. Clear 8. Quit What would you like to do? 5 What is the second number? 2 The current value is 25.0 Menu 1. Add 2. Subtract 3. Multiply 4. Divide 5. Power 6. Logarithm 7. Clear 8. Quit What would you like to do? 6 The current value is 3.2188758248682006 Menu 1. Add 2. Subtract 3. Multiply 4. Divide 5. Power 6. Logarithm 7. Clear
+
+8. Quit What would you like to do? 7
+
+The current value is 0.0 Menu 1. Add 2. Subtract 3. Multiply 4. Divide 5. Power 6. Logarithm 7. Clear 8. Quit What would you like to do? 8 Goodbye!
